@@ -3,7 +3,7 @@
     <img src="https://avatars.githubusercontent.com/u/90430786?v=4" alt="Logo" width="150" >
   </a>
 
-  <h3 align="center">BookShelf App</h3>
+  <h3 align="center">Lucky Anime Rest API</h3>
 
   <p align="center">
     <samp>A free anime app restful API serving anime from <a href="https://luckyanimeku.netlify.app/">LuckyAnime</a></samp>
