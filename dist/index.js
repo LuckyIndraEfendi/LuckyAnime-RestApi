@@ -19,7 +19,7 @@ axios_1.default.defaults.headers.common["User-Agent"] =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54";
 exports.app.use((0, cors_1.default)());
 exports.app.get("/", async (req, res) => {
-  res.send("Welcome to Lucky Anime Rest API🚀");
+  res.send("Welcome toLucky Anime Rest API🚀");
 });
 exports.app.use("/kuramanime", kuramanime_1.default);
 exports.app.use("/nanime", nanime_1.default);
