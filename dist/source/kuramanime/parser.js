@@ -25,7 +25,11 @@ const recentRelease = async (page = 1) => {
       `${BASEURL}/anime/ongoing?order_by=latest&page=${page}`
     );
     const $ = cheerio_1.default.load(base.data);
-
+    if (!$("#animeList .product__item").html()) {
+      throw new Error(
+        "Page not found, you may request more than the maximum page"
+      );
+    }
     let maxPage = ~~$("#animeList .product__pagination a:not(:has(i))")
       .last()
       .html();
